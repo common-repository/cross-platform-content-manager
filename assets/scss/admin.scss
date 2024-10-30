@@ -1,0 +1,223 @@
+#wpcontent {
+  padding-left: 0;
+}
+
+.wrap {
+  width: 100%;
+  margin: 0;
+
+  h1 {
+    margin: 0 15px 0 0;
+    padding: 0;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  // tabs
+  .nav-tab-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background: #344054;
+
+    .tab-menu {
+      display: flex;
+      align-items: center;
+      column-gap: 15px;
+    }
+
+    .tab-cta {
+      color: #98A2B3;
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        transition: color .3s;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+
+    .nav-tab {
+      margin: 0;
+      padding: 9px 16px;
+      border: none;
+      border-radius: 5px;
+      background: transparent;
+      transition: all .3s;
+      color: #98A2B3;
+      font-weight: 400;
+      
+      &:hover,
+      &-active {
+        background-color: #475467;
+        color: #fff;
+      }
+
+      &:focus,
+      &:active,
+      &-active {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+
+    &::after {
+      content: unset;
+    }
+  }
+
+  #tab-content {
+    padding: 30px 25px;
+
+    h2 {
+      margin: 0 0 30px;
+    }
+
+    .tab-pane {
+      display: none;
+  
+      &.active {
+        display: block;
+      }
+    }
+  }
+
+  // remote sites
+  #add-child-site-form {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+    
+    .field-group {
+      width: 30%;
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input {
+        width: 100%;
+
+        &::placeholder {
+          opacity: 0.7;
+        }
+      }
+    }
+
+    .button {
+      width: 10%;
+    }
+  }
+
+  .wp-list-table {
+    margin-bottom: 40px;
+  }
+
+  .remove-site {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #ff0000;
+  }
+  
+  // Sync Settings
+  .post-types,
+  .seo-features {
+    margin-bottom: 40px;
+    
+    .field-group {
+
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+      
+      .taxonomies {
+        width: 100%;
+        margin-left: 12px;
+        max-height: 0;
+        overflow: hidden;
+        transition: all .5s;
+      }
+
+      input {
+        display: none;
+      }
+      
+      input:checked ~ label .switcher span {
+        left: unset;
+        right: 4px;
+      }
+
+      label {  
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 15px;
+      }
+
+      .switcher {
+        width: 40px;
+        height: 20px;
+        padding: 2px;
+        background: #344054;
+        border-radius: 20px;
+        cursor: pointer;
+        position: relative;
+
+        span {
+          display: block;
+          height: 16px;
+          width: 16px;
+          background: #fff;
+          border-radius: 50%;
+          position: absolute;
+          left: 4px;
+          top: 50%;
+          transform: translateY(-50%);
+          transition: all .3s;
+        }
+      }
+
+      .info {
+        font-style: italic;
+      }
+    }
+  }
+
+  // logs
+  #logs {
+
+    textarea {
+      width:100%;
+      height:60vh;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      background: #344054;
+      color: #cecece;
+    }
+
+    .clear-logs {
+      color: #ff0000;
+      border-color: #ff0000;
+      outline: none;
+    }
+
+    .buttons-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cross Platform Content Manager\n"
+"POT-Creation-Date: 2024-04-26 12:18+0300\n"
+"PO-Revision-Date: 2024-04-26 12:25+0300\n"
+"Last-Translator: \n"
+"Language-Team: Ione Digital\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;_n:1,2;_n_noop:1,2;"
+"esc_html__;esc_attr_x:1,2c;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .\n"
+
+#: admin/pages/settings-page.php:7
+msgid "Remote Sites"
+msgstr "Віддалені сайти"
+
+#: admin/pages/settings-page.php:8
+msgid "Sync Settings"
+msgstr "Налаштування синхронізації"
+
+#: admin/pages/settings-page.php:9
+msgid "Social"
+msgstr "Соц мережі"
+
+#: admin/pages/settings-page.php:10
+msgid "Logs"
+msgstr "Логи"
+
+#: admin/pages/settings-page.php:22
+msgid "Select Post Types to Sync"
+msgstr "Оберіть типи записів для синхронізації"
+
+#: admin/pages/settings-page.php:26
+msgid "Social networks to share posts "
+msgstr "Соц мережі для розповсюдження записів"
+
+#: admin/pages/settings-page.php:26 admin/parts/form-post-types.php:39
+#: admin/parts/form-post-types.php:49
+msgid "Coming soon"
+msgstr "В розробці"
+
+#: admin/pages/settings-page.php:28
+msgid "Instagram"
+msgstr ""
+
+#: admin/pages/settings-page.php:29
+msgid "Facebook"
+msgstr ""
+
+#: admin/pages/settings-page.php:30
+msgid "Twitter"
+msgstr ""
+
+#: admin/pages/settings-page.php:31
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/pages/settings-page.php:32
+msgid "Threads"
+msgstr ""
+
+#: admin/pages/settings-page.php:40
+msgid "Copy"
+msgstr "Копіювати"
+
+#: admin/pages/settings-page.php:41
+msgid "Clear Logs"
+msgstr "Очистити логи"
+
+#: admin/pages/settings-page.php:50
+msgid "Logs was copied!"
+msgstr "Логи скопійовано"
+
+#: admin/pages/settings-page.php:52
+msgid "Error in copying:"
+msgstr "Помилка копіювання"
+
+#: admin/pages/settings-page.php:57
+msgid "Are you sure you want to clear the logs?"
+msgstr "Ви впевнені, що хочете скопіювати логи?"
+
+#: admin/pages/settings-page.php:62
+msgid "Error:"
+msgstr "Помилка:"
+
+#: admin/pages/settings-page.php:65
+msgid "Request error"
+msgstr "Помилка запиту"
+
+#: admin/parts/form-child-sites.php:5
+msgid "Configured Sites"
+msgstr "Налаштовані сайти"
+
+#: admin/parts/form-child-sites.php:9
+msgid "Site Name"
+msgstr "Назва сайту"
+
+#: admin/parts/form-child-sites.php:10
+msgid "URL"
+msgstr "Посилання"
+
+#: admin/parts/form-child-sites.php:11
+msgid "User Name"
+msgstr "Ім'я користувача"
+
+#: admin/parts/form-child-sites.php:12
+msgid "Application Password"
+msgstr "Application Password користувача"
+
+#: admin/parts/form-child-sites.php:13
+msgid "Actions"
+msgstr "Дії"
+
+#: admin/parts/form-child-sites.php:14
+msgid "Remove"
+msgstr "Видалити"
+
+#: admin/parts/form-child-sites.php:30
+msgid "Sync All Posts"
+msgstr "Синхронізувати все"
+
+#: admin/parts/form-child-sites.php:39
+msgid "Add Websites To Sync"
+msgstr "Додати сайт до синхронізації"
+
+#: admin/parts/form-child-sites.php:43
+msgid "Site Name:"
+msgstr "Назва сайту"
+
+#: admin/parts/form-child-sites.php:44
+msgid "Enter any site name"
+msgstr "Введіть будь яку назву сайту"
+
+#: admin/parts/form-child-sites.php:47
+msgid "Child Site URL:"
+msgstr "Посилання на дочірній сайт"
+
+#: admin/parts/form-child-sites.php:48
+msgid "full site linc with http protocol"
+msgstr "пове посилання з http протоколом"
+
+#: admin/parts/form-child-sites.php:51
+msgid "User Name:"
+msgstr "Ім'я користувача"
+
+#: admin/parts/form-child-sites.php:52
+msgid "Admin or Editor username"
+msgstr "Ім'я адміністратора або редактора"
+
+#: admin/parts/form-child-sites.php:55
+msgid "Application Password:"
+msgstr ""
+
+#: admin/parts/form-child-sites.php:56
+msgid "Application password of user"
+msgstr "Application password користувача"
+
+#: admin/parts/form-child-sites.php:58
+msgid "Add New Site"
+msgstr "Додати новий сайт"
+
+#: admin/parts/form-post-types.php:30
+msgid "Select SEO plugin that you are using"
+msgstr "Оберіть SEO плагін, що ви використовуєте"
+
+#: admin/parts/form-post-types.php:38
+msgid "Rank Math"
+msgstr ""
+
+#: admin/parts/form-post-types.php:48
+msgid "Yoast Seo"
+msgstr ""
+
+#: admin/parts/form-post-types.php:54
+msgid "Save Settings"
+msgstr "Зберегти"
+
+#: cross-platform-content-manager.php:55
+msgid "Settings"
+msgstr "Налаштування"
+
+#: includes/sync/class-sync-manager.php:18
+msgid "Sites to Sync"
+msgstr "Сайти для синхронізації"
